@@ -60,4 +60,5 @@ open the project directory with cmd, then you can run the following commands:
 -   `npm run prettier` formate the code  
 -   `npm run dev`  watch the project in development mode 
 
-
+#### Credit to  :
+- [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode).
