@@ -8,7 +8,7 @@
     "lint": "eslint --ext ts src",
     "jasmine": "jasmine",
     "test": "npm run build && npm run jasmine",
-    "start": "npm run build && node build/index.js",
+    "start": "npm run build && node dist/index.js",
     "prettier": "prettier --config .prettierrc src/**/*.ts --write",
     "dev": "nodemon"
   },
