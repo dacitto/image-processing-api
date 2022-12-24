@@ -7,7 +7,7 @@ const router = express.Router();
 const rootRouter = router.get(
   '^/$|/index(.html)?',
   (req: Request, res: Response) => {
-    res.sendFile(path.join(__dirname, '../views/index.html'));
+    res.sendFile(path.join(__dirname, '../../public/views/index.html'));
   }
 );
 
