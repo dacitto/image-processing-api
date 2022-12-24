@@ -2,10 +2,10 @@ import { format } from 'date-fns';
 // import {v4} from "uuid"
 import fs from 'fs';
 import path from 'path';
-// import { v4 as uuid } from "uuid";
 import { Request, Response, NextFunction } from 'express';
+import { v4 as uuid } from 'uuid';
+
 const fsPromises = fs.promises;
-const { v4: uuid } = require('uuid');
 export const logEvents = async (message: string, logFileName: string) => {
   const dateTime = format(new Date(), 'yyyyMMdd\tHH:mm:ss');
   const logItem = `${dateTime}\t${uuid()}\t${message}\n`;
