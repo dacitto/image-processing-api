@@ -5,7 +5,6 @@ import sharp from 'sharp';
 import { fullImagesFolder } from '../utils/constants';
 import { imageNames } from '../data/images';
 import { existsSync, mkdir } from 'fs';
-// const path = `public/images/nature.jpg`;
 
 export const imageController = {
   resizeImage: async (req: Request, res: Response) => {
