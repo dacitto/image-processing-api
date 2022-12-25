@@ -1,6 +1,6 @@
 # Image Processing API 
 
-Image Processing API is the first project in the [Udacity’s Full Stack JavaScript Developer Nanodegree](https://learn.udacity.com/nanodegrees/nd0067-alg-t2).
+Image Processing API is the first project in the [Udacity’s Full Stack JavaScript Developer Nanodegree](https://www.udacity.com/course/full-stack-javascript-developer-nanodegree--nd0067).
 
 # Project Overview
 
@@ -45,7 +45,7 @@ The image processing api can be used in two different ways. As a simple placehol
 
 open the project directory with cmd, then you can run the following commands:
 
-1- open the project directory then use the following commend .
+1- open the project directory then use the following commend
 
 `npm i` or `pnpm i` to install project dependencies.
 
@@ -53,11 +53,12 @@ open the project directory with cmd, then you can run the following commands:
     the server will run on [localhost:4000](http://localhost:4000/).
 
 ## Other useful commands:
--   `npm run build`  compile typescript to /dist folder,
+-   `npm run build`  compile typescript to /dist folder
 -   `npm run lint`  run Eslint
 -   `npm run test` run unit tests (jasmine) 
 -   `npm run start` start the server on production mode
 -   `npm run prettier` formate the code  
 -   `npm run dev`  watch the project in development mode 
 
-
+#### Thanks to  :
+- [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode).
