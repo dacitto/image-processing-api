@@ -45,7 +45,7 @@ The image processing api can be used in two different ways. As a simple placehol
 
 open the project directory with cmd, then you can run the following commands:
 
-1- open the project directory then use the following commend .
+1- open the project directory then use the following commend
 
 `npm i` or `pnpm i` to install project dependencies.
 
@@ -53,7 +53,7 @@ open the project directory with cmd, then you can run the following commands:
     the server will run on [localhost:4000](http://localhost:4000/).
 
 ## Other useful commands:
--   `npm run build`  compile typescript to /dist folder,
+-   `npm run build`  compile typescript to /dist folder
 -   `npm run lint`  run Eslint
 -   `npm run test` run unit tests (jasmine) 
 -   `npm run start` start the server on production mode
