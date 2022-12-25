@@ -4,10 +4,19 @@ import path from 'path';
 import sharp from 'sharp';
 import { fullImagesFolder } from '../utils/constants';
 import { imageNames } from '../data/images';
-import { existsSync } from 'fs';
+import { existsSync, mkdir } from 'fs';
 // const path = `public/images/nature.jpg`;
+
 export const imageController = {
   resizeImage: async (req: Request, res: Response) => {
+    if (!existsSync(convertedImagesFolder)) {
+      await mkdir(convertedImagesFolder, (err) => {
+        if (err) {
+          return console.error(err);
+        }
+        console.log('Directory created successfully!');
+      });
+    }
     if (!req.query.name) {
       return res
         .status(400)
