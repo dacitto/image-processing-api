@@ -1,6 +1,6 @@
 # Image Processing API 
 
-Image Processing API is the first project in the [Udacity’s Full Stack JavaScript Developer Nanodegree](https://learn.udacity.com/nanodegrees/nd0067-alg-t2).
+Image Processing API is the first project in the [Udacity’s Full Stack JavaScript Developer Nanodegree](https://www.udacity.com/course/full-stack-javascript-developer-nanodegree--nd0067).
 
 # Project Overview
 
@@ -60,5 +60,5 @@ open the project directory with cmd, then you can run the following commands:
 -   `npm run prettier` formate the code  
 -   `npm run dev`  watch the project in development mode 
 
-#### Credit to  :
+#### Thanks to  :
 - [Dave Gray](https://www.youtube.com/@DaveGrayTeachesCode).
